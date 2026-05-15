@@ -14,7 +14,6 @@ The program demonstrates the full encryption workflow:
 
 The application runs through a simple command-line menu and is intended as a learning project for cryptography, public-key encryption, modular arithmetic, and secure random number generation.
 
----
 
 ## Features
 
@@ -28,7 +27,6 @@ The application runs through a simple command-line menu and is intended as a lea
 - Load previously saved keys
 - Handle missing files and invalid workflows gracefully
 
----
 
 ## Cryptographic Concept
 
@@ -64,9 +62,11 @@ where:
 2. The original bits are recovered using the greedy algorithm and the superincreasing sequence.
 3. Bits are regrouped into bytes and converted back into readable text.
 
+
 ## Requirements
 - Python3.8 or later
 - sympy
+
 
 ## Menu Options
 When launched, the program displays:
@@ -81,6 +81,7 @@ Menu:
  5) Decrypt a message from ciphertext file
  0) Exit
  ```
+
 
 ## Screenshots
 
